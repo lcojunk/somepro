@@ -41,6 +41,10 @@ public class SortImp {
         return true;
     }
 
+    private void doNothing() {
+
+    }
+
     private static long getTimeStamp() {
         Date date = new Date();
         return date.getTime();
